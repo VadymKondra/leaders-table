@@ -1,0 +1,56 @@
+
+
+.userStyle {
+    display: grid;
+    grid-column: 3;
+    grid-template-rows: repeat(2, 50%);
+    grid-template-columns: repeat(3, 33%);
+    width: 100%
+}
+
+.userIconStyle {
+    justify-self: center;
+    align-self: center;
+    grid-row-end: span 2;
+    height: 5.5rem
+}
+
+.userInfoStyle {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.buttonClicked {
+    color: plum
+}
+
+.buttonNonClicked {
+    color: black
+}
+
+.buttonRecord {
+    width: 100%;
+    padding: 3%;
+    background-color: white;
+    margin-top: 5rem;
+}
+
+.dots3{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+.numberContainer{
+    height: 100%;
+    grid-row-end: span 3;
+}
+
+.number {
+    font-size: 3.5rem;
+}
+
